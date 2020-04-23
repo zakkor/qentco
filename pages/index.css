@@ -1,0 +1,23 @@
+ul.list-check li:not(:first-child) {
+  padding-top: 8px;
+}
+
+ul.list-check li::before {
+  content: ' ';
+  display: inline-block;
+  background-image: url('/static/icon-check-circle.svg');
+  color: #38b2ac;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  vertical-align: -20%;
+}
+
+.bar-filled {
+  display: inline-block;
+  width: 2%;
+}
+.bar-unfilled {
+  display: inline-block;
+  width: 98%;
+}

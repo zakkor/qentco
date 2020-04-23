@@ -1,3 +1,21 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+button {
+  @apply bg-teal-500 px-4 py-3 text-lg font-semibold leading-tight shadow-md rounded-lg text-white;
+}
+button.button-white {
+  @apply bg-white px-4 py-3 text-lg font-semibold leading-tight shadow-md rounded-lg text-gray-700 border-gray-200 border;
+}
+
+button:hover {
+  @apply bg-teal-600;
+}
+button.button-white:hover{
+  @apply bg-gray-200;
+}
+
+button.button-lg {
+  @apply px-8 py-4;
+}

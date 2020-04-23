@@ -625,14 +625,14 @@ video {
 
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
-  margin-top: calc(0 * calc(1 - var(--space-y-reverse)));
-  margin-bottom: calc(0 * var(--space-y-reverse));
+  margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(0px * var(--space-y-reverse));
 }
 
 .space-x-0 > :not(template) ~ :not(template) {
   --space-x-reverse: 0;
-  margin-right: calc(0 * var(--space-x-reverse));
-  margin-left: calc(0 * calc(1 - var(--space-x-reverse)));
+  margin-right: calc(0px * var(--space-x-reverse));
+  margin-left: calc(0px * calc(1 - var(--space-x-reverse)));
 }
 
 .space-y-1 > :not(template) ~ :not(template) {
@@ -14962,17 +14962,62 @@ video {
   transition-delay: 1000ms;
 }
 
+button {
+  background-color: #38b2ac;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.25;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+button.button-white {
+  background-color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.25;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  color: #4a5568;
+  border-color: #edf2f7;
+  border-width: 1px;
+}
+
+button:hover {
+  background-color: #319795;
+}
+
+button.button-white:hover{
+  background-color: #edf2f7;
+}
+
+button.button-lg {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
-    margin-top: calc(0 * calc(1 - var(--space-y-reverse)));
-    margin-bottom: calc(0 * var(--space-y-reverse));
+    margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0px * var(--space-y-reverse));
   }
 
   .sm\:space-x-0 > :not(template) ~ :not(template) {
     --space-x-reverse: 0;
-    margin-right: calc(0 * var(--space-x-reverse));
-    margin-left: calc(0 * calc(1 - var(--space-x-reverse)));
+    margin-right: calc(0px * var(--space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--space-x-reverse)));
   }
 
   .sm\:space-y-1 > :not(template) ~ :not(template) {
@@ -29306,14 +29351,14 @@ video {
 @media (min-width: 768px) {
   .md\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
-    margin-top: calc(0 * calc(1 - var(--space-y-reverse)));
-    margin-bottom: calc(0 * var(--space-y-reverse));
+    margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0px * var(--space-y-reverse));
   }
 
   .md\:space-x-0 > :not(template) ~ :not(template) {
     --space-x-reverse: 0;
-    margin-right: calc(0 * var(--space-x-reverse));
-    margin-left: calc(0 * calc(1 - var(--space-x-reverse)));
+    margin-right: calc(0px * var(--space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--space-x-reverse)));
   }
 
   .md\:space-y-1 > :not(template) ~ :not(template) {
@@ -43647,14 +43692,14 @@ video {
 @media (min-width: 1024px) {
   .lg\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
-    margin-top: calc(0 * calc(1 - var(--space-y-reverse)));
-    margin-bottom: calc(0 * var(--space-y-reverse));
+    margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0px * var(--space-y-reverse));
   }
 
   .lg\:space-x-0 > :not(template) ~ :not(template) {
     --space-x-reverse: 0;
-    margin-right: calc(0 * var(--space-x-reverse));
-    margin-left: calc(0 * calc(1 - var(--space-x-reverse)));
+    margin-right: calc(0px * var(--space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--space-x-reverse)));
   }
 
   .lg\:space-y-1 > :not(template) ~ :not(template) {
@@ -57988,14 +58033,14 @@ video {
 @media (min-width: 1280px) {
   .xl\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
-    margin-top: calc(0 * calc(1 - var(--space-y-reverse)));
-    margin-bottom: calc(0 * var(--space-y-reverse));
+    margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0px * var(--space-y-reverse));
   }
 
   .xl\:space-x-0 > :not(template) ~ :not(template) {
     --space-x-reverse: 0;
-    margin-right: calc(0 * var(--space-x-reverse));
-    margin-left: calc(0 * calc(1 - var(--space-x-reverse)));
+    margin-right: calc(0px * var(--space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--space-x-reverse)));
   }
 
   .xl\:space-y-1 > :not(template) ~ :not(template) {
