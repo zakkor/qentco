@@ -2,6 +2,6 @@
 	"compress": "none",
 	"removeUnusedCSS": true,
 	"navigationSPA": false,
-	"uglifyCSS": false,
+	"uglify": false,
 	"verbose": true
 }
