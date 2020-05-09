@@ -1,3 +1,7 @@
 {
-	"compress": "brotli"
+	"compress": "none",
+	"removeUnusedCSS": true,
+	"navigationSPA": false,
+	"uglifyCSS": false,
+	"verbose": true
 }
