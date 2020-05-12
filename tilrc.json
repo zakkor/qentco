@@ -1,7 +1,7 @@
 {
-	"compress": "none",
+	"compress": "brotli",
 	"removeUnusedCSS": true,
-	"navigationSPA": false,
-	"uglify": false,
+	"navigationSPA": true,
+	"uglify": true,
 	"verbose": true
 }
