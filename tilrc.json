@@ -1,7 +1,15 @@
 {
-	"compress": "brotli",
+	"compress": "none",
 	"removeUnusedCSS": true,
-	"navigationSPA": true,
-	"uglify": true,
-	"verbose": true
+	"navigationSPA": false,
+	"uglify": false,
+	"verbose": true,
+	"images": {
+		"webp": true,
+		"responsive": true
+	},
+	"svgs": {
+		"optimize": true,
+		"inline": false
+	}
 }
