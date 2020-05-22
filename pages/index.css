@@ -15,9 +15,9 @@ ul.list-check li::before {
 
 .bar-filled {
   display: inline-block;
-  width: 2%;
+  width: 3%;
 }
 .bar-unfilled {
   display: inline-block;
-  width: 98%;
+  width: 96%;
 }
